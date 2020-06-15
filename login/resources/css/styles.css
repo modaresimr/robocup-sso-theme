@@ -22,14 +22,13 @@ body {
     background-image: url('../img/bkgrnd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
-    color: #fff;
+	color: #000000;
     font-family: sans-serif;
-    text-shadow: 0px 0px 10px #000;
-}
+    text-shadow: 1px 1px 10px #fff;
+    }
 
 a {
-    color: #fff;
+    color: #4441e8;
 }
 
 div#kc-content {
@@ -98,8 +97,8 @@ input[type=submit] {
 
     padding: 10px;
     margin-top: 20px;
-    margin-right: 10px;
-    width: 150px;
+	width: 316px;
+    
 }
 
 input[type=submit]:hover {
@@ -183,7 +182,7 @@ a.zocial {
     background: -o-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0.1)) !important;
     box-shadow: 0px 0px 6px rgba(0,0,0,0.5);
     color: rgba(0,0,0,0.6);
-    width: 130px;
+    width: 301px;
     text-shadow: none;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -197,4 +196,10 @@ a.zocial {
     background: url("../img/robocup-logo.png") no-repeat top right;
     height: 45px;
     width: 200px;
+}
+
+#kc-info {
+    /* display: block; */
+    float: left;
+    width: 100%;
 }
