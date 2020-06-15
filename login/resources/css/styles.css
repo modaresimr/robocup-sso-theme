@@ -191,3 +191,10 @@ a.zocial {
     padding-top: 0.2em;
     padding-bottom: 0.2em;
 }
+
+
+#kc-logo-wrapper {
+    background: url("../img/robocup-logo.png") no-repeat top right;
+    height: 45px;
+    width: 200px;
+}
